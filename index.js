@@ -16,7 +16,7 @@ const BASE_URL = "http://51.89.99.105/NumberPanel";
 const STATS_PAGE_URL = `${BASE_URL}/client/SMSCDRStats`; 
 
 const COMMON_HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/144.0.0.0 Mobile Safari/537.36",
+    "User-Agent": "Mozilla/5.0 (Linux; Android 15; V2423 Build/AP3A.240905.015.A2_D1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.34 Mobile Safari/537.36",
     "X-Requested-With": "XMLHttpRequest",
     "Origin": "http://51.89.99.105",
     "Accept-Language": "en-US,en;q=0.9,ur-PK;q=0.8,ur;q=0.7"
