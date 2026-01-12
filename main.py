@@ -40,7 +40,7 @@ def start(m):
     if not check_join(m.chat.id):
         kb = types.InlineKeyboardMarkup()
         kb.add(types.InlineKeyboardButton("Join", url="https://t.me/MALIKTRICK"))
-        kb.add(types.InlineKeyboardButton("Joinjndtech1", url="https://t.me/jndtech1"))
+        kb.add(types.InlineKeyboardButton("Join", url="https://t.me/jndtech1"))
         kb.add(types.InlineKeyboardButton(f"Join", url="https://t.me/malikfilehub"))
         kb.add(types.InlineKeyboardButton(f"Join", url="https://t.me/malikfreeshh"))
         kb.add(types.InlineKeyboardButton("✅ Verify", callback_data="verify"))
