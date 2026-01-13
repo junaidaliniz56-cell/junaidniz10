@@ -39,10 +39,10 @@ def check_join(uid):
 def start(m):
     if not check_join(m.chat.id):
         kb = types.InlineKeyboardMarkup()
-        kb.add(types.InlineKeyboardButton("Join", url="https://t.me/MALIKTRICK"))
-        kb.add(types.InlineKeyboardButton("Join", url="https://t.me/jndtech1"))
-        kb.add(types.InlineKeyboardButton(f"Join", url="https://t.me/malikfilehub"))
-        kb.add(types.InlineKeyboardButton(f"Join", url="https://t.me/malikfreeshh"))
+        kb.add(types.InlineKeyboardButton("📢 Join", url="https://t.me/MALIKTRICK"))
+        kb.add(types.InlineKeyboardButton("📢 Join", url="https://t.me/jndtech1"))
+        kb.add(types.InlineKeyboardButton(f"📢 Join", url="https://t.me/malikfilehub"))
+        kb.add(types.InlineKeyboardButton(f"📢 Join", url="https://t.me/malikfreeshh"))
         kb.add(types.InlineKeyboardButton("✅ Verify", callback_data="verify"))
         bot.send_message(m.chat.id, "❌ <b>Join required channels first!</b>", reply_markup=kb)
         return
@@ -88,7 +88,7 @@ def pick_country(c):
         kb = types.InlineKeyboardMarkup()
         kb.add(types.InlineKeyboardButton("🔄 Change Number", callback_data=f"get|{country}"))
         kb.add(types.InlineKeyboardButton("🌍 Change Country", callback_data="change"))
-        kb.add(types.InlineKeyboardButton("📱 OTP Group", url="https://t.me/+Aqq6X6oRWCdhM2Q0"))
+        kb.add(types.InlineKeyboardButton("📱 OTP Group", url="https://t.me/freeotpm"))
 
         bot.edit_message_text(
             f"🌍 <b>Your Number ({country})</b>\n\n📞 <code>{phone}</code>\n\n⏳ Waiting for OTP...",
