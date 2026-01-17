@@ -8,8 +8,8 @@ const PORT = process.env.PORT || 5000;
 // --- CONFIGURATION ---
 // 1. FIXED: Username/Password ko quotes ("") mein hona chahiye
 const CREDENTIALS = {
-    username: "Junaidali786",
-    password: "Junaidali786"
+    username: "kami522",
+    password: "kami526"
 };
 
 const BASE_URL = "http://51.89.99.105/NumberPanel";
