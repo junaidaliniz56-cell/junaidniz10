@@ -124,7 +124,7 @@ def format_message(record):
 <blockquote>📩 Full Message:</blockquote>
 <pre>{msg}</pre>
 
-Powered by 𓄹𝐂ᴇʟᴇ𝐁𝐫𝐢ᴛ𝐘ཀོ𓍯 💗 
+Powered by KANG Team 💗 
 """
 
 
