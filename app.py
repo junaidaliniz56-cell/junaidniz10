@@ -131,12 +131,12 @@ Powered by 𓄹𝐂ᴇʟᴇ𝐁𝐫𝐢ᴛ𝐘ཀོ𓍯 💗
 async def send_to_all_groups(message):
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
         [
-            InlineKeyboardButton(text="📱 Channel", url="https://t.me/backup_number_channel"),
+            InlineKeyboardButton(text="📱 Channel", url="https://t.me/JonzzoffcXTesti"),
             InlineKeyboardButton(text="☎️ Numbers", url="https://t.me/Sms_number_channel")
         ],
         [
-            InlineKeyboardButton(text="👨‍💻 Developer", url="https://t.me/Elham_cyberi"),
-            InlineKeyboardButton(text="🟢 Whatsapp", url="https://chat.whatsapp.com/FUZgye5T8qR2vD1NezeYcj")
+            InlineKeyboardButton(text="👨‍💻 Developer", url="https://t.me/junaidniz786"),
+            InlineKeyboardButton(text="🟢 Whatsapp", url="https://whatsapp.com/channel/0029Vaf1X3f6hENsP7dKm81z")
         ]
     ])
 
